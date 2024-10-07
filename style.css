@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Droid Serif';
+    src: url(PDF/DroidSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(PDF/Oswald-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Droid Serif', sans-serif;
+    color: gray;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%; 
+    text-align: center; 
+}
+
+.ABC {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin-left: 20px;
+    width: 1240px;
+}
+
+header {
+    background-image: url(img/grille.png);
+    height: 180px;
+}
+
+.textmidle {
+    background-image: url(img/grille.png);
+    height: 70px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#video { 
+    max-width: 100%; 
+}
+
+td { 
+    width: 200px; 
+    font-family: "Doid Serif";
+    padding: 6px;
+    color: rgb(133, 125, 125);
+}
+
+h3 { 
+    font-family: 'Oswald', sans-serif; 
+    color: orangered;
+}
+
+.accrobranche { 
+    display: flex; 
+    justify-content: flex-start; 
+    
+    
+}
+
+.border-line {
+    border-bottom: 5px solid; 
+    width: 12px; 
+    margin: 10px auto;
+}
+
+#restaurant { border-bottom: 5px solid#e1e10a;
+  }
+#service { border-bottom: 5px solid #44ea0c; 
+ }
+
+#activite { border-bottom:5px solid #2610d0;
+     }
+#plus { 
+    border-bottom: 5px solid #720baa; 
+ 
+}
+#hotel { border-bottom:5px solid #e8770e;
+    }
+
+iframe { 
+    height: 500px;
+    width: 700px;
+    margin: 50px auto 0; /* Centrer avec auto */
+    display: block; /* Pour que le margin fonctionne */
+}
+
+.backcontact { 
+    display: flex;
+    background-image: url("img/grille.png");
+    height: 250px; 
+    align-items: center;
+}
+
+.ligne { 
+    border-bottom: 1px solid gray; 
+    color: rgb(133, 125, 125);
+}
+
+footer { 
+    margin: 15px; 
+}
+
+.presse { 
+    border-left: 2px solid rgb(189, 185, 185);
+    margin-left: 10px; 
+    text-align: center; 
+}
+
+.textrignt { 
+    text-align: right; 
+}
+
+.police { 
+    font-size: 12px; 
+}
+
+.bla { 
+    float: right; 
+}
+
+h4 { 
+    font-family: "Oswald", sans-serif; 
+}
+
+div { 
+    padding: 3px; 
+}
+
+.divblabla { 
+    margin-left: auto; 
+}
+thead { 
+    font-family: "Oswald";
+}
+.italique { 
+    font-style: italic;
+    color: rgb(133, 125, 125);
+}
